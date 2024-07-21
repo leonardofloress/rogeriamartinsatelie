@@ -1,0 +1,33 @@
+body {
+    background-color: #fdf6f0;
+}
+.logo{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    }
+.menu{
+    width: 80%; /* largura total do container */
+    overflow-x: auto; /* permite a rolagem horizontal */
+    white-space: nowrap; /* impede que os itens quebrem em várias linhas */
+    }
+.rodape{
+    margin: auto;
+    text-align: center;
+    justify-content: center;  
+    }
+a{
+    display: inline-flex;
+    color: #955124;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    }
+a img{
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    }
+a h3{
+    margin-left: 5px;
+}
