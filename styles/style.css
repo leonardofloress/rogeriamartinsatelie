@@ -15,19 +15,19 @@ body {
     margin: auto;
     text-align: center;
     justify-content: center;  
+    align-items: flex-end;
     }
 a{
-    display: inline-flex;
+    display: flex;
     color: #955124;
     justify-content: center;
     margin: auto;
-    padding: auto;
     }
 a img{
-    margin: auto;
-    padding: auto;
-    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin: auto 5px;
     }
 a h3{
-    margin-left: 5px;
+
 }
