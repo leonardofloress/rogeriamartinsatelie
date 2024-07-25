@@ -1,33 +1,70 @@
 body {
     background-color: #fdf6f0;
+    width: 100%;
+    height: 100%;
 }
 .logo{
     display: grid;
-    margin: auto;
+    margin: 50% 100px auto;
     justify-content: center;
     }
 .menu{
-    width: 80%; /* largura total do container */
-    overflow-x: auto; /* permite a rolagem horizontal */
-    white-space: nowrap; /* impede que os itens quebrem em várias linhas */
+    display: flex;
+    color: #955124;
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    overflow-x: auto;
     }
+.menuitems{
+    border-radius: 100%;
+    height: 100px;
+    margin-left: 5px;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+    }
+.menublocks{
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    color: #955124;
+    text-align: center;
+}
+
+
 .rodape{
     margin: auto;
     text-align: center;
     justify-content: center;  
-    align-items: flex-end;
     }
-a{
-    display: flex;
+.rodape a{
+    display: inline-flex;
     color: #955124;
     justify-content: center;
     margin: auto;
+    padding: auto;
     }
 a img{
-    width: 36px;
-    height: 36px;
-    margin: auto 5px;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
     }
-a h3{
 
+a h3{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.sublogo{
+    display: grid;
+    margin: auto;
+    margin: 20px 100px auto;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 100%;
+    color: #955124;
+    }
+.amostra{
+    margin: 25px auto;
 }
